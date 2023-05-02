@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a{ 
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  background: rgb(148, 148, 163);
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+}
+.list {
+  display: flex;
+  gap: 30px;
+}
+.link {
+  color: white;
+}
+.link.router-link-exact-active {
+  color: red;
+}
